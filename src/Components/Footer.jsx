@@ -6,7 +6,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <div className="w-full relative mt-9">
+    <div className="w-full relative mt-4">
       <div className="w-[94%] mx-auto py-4">
         <hr className="border-[1px] w-full" />
         <div className="w-[98%] md:w-[88%] mt-6  gap-6 place-items-center mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">

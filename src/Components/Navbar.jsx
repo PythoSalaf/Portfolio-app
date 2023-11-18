@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="w-[15%]">
             <Link
               to="/"
-              className="uppercase text-primary text-2xl lg:text-3xl font-semibold hover:text-green"
+              className="uppercase text-primary text-[28px] lg:text-3xl font-semibold hover:text-green"
             >
               taoheed
             </Link>

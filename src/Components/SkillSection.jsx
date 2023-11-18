@@ -1,6 +1,5 @@
 import React from "react";
-import { mui } from "../Assets";
-
+import { skillsData } from "./DummyData";
 const SkillSection = () => {
   return (
     <div className="w-full ">
@@ -12,17 +11,27 @@ const SkillSection = () => {
           I've experience with this technologies
         </p>
       </div>
-      <div className="w-full gap-6 grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
-        <div className="w-full h-[100px] border-[1px] border-primary bg-white shadow-custom flex items-center flex-col justify-center py-3 rounded-xl">
-          <div className="rounded-full h-full">
+      <div className="w-full gap-6 grid  mt-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+        {skillsData.map((skill) => (
+          <div
+            key={skill.id}
+            className="w-full h-[100px] border-[1px] md:border-[2px] border-primary bg-white shadow-custom flex items-center gap-5 py-3 rounded-lg"
+          >
             <img
-              src={mui}
+              src={skill.avatar}
               alt="mui"
-              className="w-[100px] h-full rounded-full"
+              className="w-[90px] h-full rounded-full"
             />
+            <div className="">
+              <h4 className="text-primary font-serif font-semibold text-lg md:text-xl capitalize">
+                {skill.name}
+              </h4>
+              <p className="mt-1 font-medium text-base md:text-lg">
+                {skill.note}
+              </p>
+            </div>
           </div>
-          <h4>Material UI</h4>
-        </div>
+        ))}
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import { HeroBg, SkillSection, Status } from "../Components";
+import { Contact, HeroBg, SkillSection, Status } from "../Components";
 import { TypeAnimation } from "react-type-animation";
 import { herobg } from "../Assets";
 
@@ -10,8 +10,9 @@ const Home = () => {
         <HeroBg />
         <div className="w-[95%] mx-auto flex-col md:flex-row  relative gap-6 flex items-start justify-between">
           <div className="w-full bg-transparent">
-            <h1 className=" text-xl md:text-2xl lg:text-3xl font-semibold">
-              Hello, I'm <span className="text-primary">Taoheed Afolabi</span>{" "}
+            <h1 className=" text-2xl md:text-3xl lg:text-4xl font-semibold">
+              Hello, I'm{" "}
+              <span className="text-primary font-serif">Taoheed Afolabi</span>{" "}
               👋
             </h1>
             <div className="my-5">
@@ -31,11 +32,11 @@ const Home = () => {
                   500,
                 ]}
                 speed={50}
-                className="text-primary text-base md:text-xl lg:text-2xl font-serif "
+                className="text-primary text-xl  md:text-2xl lg:text-3xl font-serif "
                 repeat={Infinity}
               />
             </div>
-            <p className="text-base md:text-xl font-medium ">
+            <p className="text-lg md:text-2xl  font-medium ">
               Welcome to my digital playground.{" "}
               <span className="text-primary font-serif">
                 I'm Taoheed Afolabi
@@ -69,6 +70,9 @@ const Home = () => {
       </div>
       <div className="w-[95%] mx-auto relative mt-[4rem]">
         <SkillSection />
+      </div>
+      <div className="w-[95%] mx-auto relative mt-[4rem]">
+        <Contact />
       </div>
     </div>
   );
