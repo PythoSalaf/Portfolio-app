@@ -62,3 +62,62 @@ export const contactData = [
     icon: <FaLocationDot size={20} color="#0db760" />,
   },
 ];
+
+export const ReviewData = [
+  {
+    id: 1,
+    name: "James",
+    stack: "Software engineer",
+    review:
+      "Taoheed is a skilled and experience web developer with a deep understanding of how web application works. He is a creative and innovative problem solver who can come up with solutions to even the most challenging problems",
+  },
+  {
+    id: 2,
+    name: "Tunde",
+    stack: "Frontend engineer",
+    review:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, fugiat?",
+  },
+  {
+    id: 3,
+    name: "Quadri",
+    stack: "Flutter developer",
+    review:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, fugiat?",
+  },
+  {
+    id: 4,
+    name: "Sodiq",
+    stack: "UI/UX designer",
+    review:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, fugiat?",
+  },
+  {
+    id: 5,
+    name: "Jacob",
+    stack: "React developer",
+    review:
+      "I have had the pleasure of working with Taoheed on a few projects over the past few years, and I have always been impressed with his skills and professionalism.",
+  },
+  {
+    id: 6,
+    name: "ElectroSalaf",
+    stack: "Java developer",
+    review:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, fugiat?",
+  },
+  {
+    id: 7,
+    name: "babatunde",
+    stack: "Frontend developer",
+    review:
+      "Hard working developer. In addition to his technical skils, Taoheed is also an excellent communicator and team player.He is always willing to go the extra mile to complete any given task.",
+  },
+  {
+    id: 8,
+    name: "DevAbdul",
+    stack: "backend developer",
+    review:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, fugiat?",
+  },
+];

@@ -71,6 +71,14 @@ const Contact = () => {
               placeholder="enter your messages"
               className="resize-none w-full outline-none border border-primary pl-2 pt-1 rounded-lg h-[100px]"
             />
+            <div className="flex items-center md:items-end justify-center md:justify-end mt-5">
+              <button
+                type="button"
+                className="bg-primary text-base md:hover:bg-white md:hover:text-primary border border-white md:hover:border-primary transition ease-in-out duration-300 md:text-lg capitalize  rounded-lg font-medium font-serif text-white px-4 py-[6px] md:py-2 md:px-5"
+              >
+                send message
+              </button>
+            </div>
           </form>
         </div>
       </div>

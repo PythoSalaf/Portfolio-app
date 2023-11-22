@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="w-full relative mt-4">
       <div className="w-[94%] mx-auto py-4">
         <hr className="border-[1px] w-full" />
-        <div className="w-[98%] md:w-[88%] mt-6  gap-6 place-items-center mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+        <div className="w-[98%] md:w-[88%] mt-6 gap-3 md:gap-6 place-items-center mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
           <h3 className="capitalize text-base flex items-center justify-center w-full font-semibold">
             &copy; 2023, all right resevered
           </h3>
@@ -17,7 +17,7 @@ const Footer = () => {
             Designed with{" "}
             <IoIosHeart className="mx-1" size={18} color="#0db760" /> by Taoheed
           </h3>
-          <div className="w-full flex items-center gap-7 justify-center">
+          <div className="w-full flex items-center mt-[2px] md:mt-0 gap-7 justify-center">
             <Link
               to="https://www.linkedin.com/in/pythosalaf/"
               target="_blank"

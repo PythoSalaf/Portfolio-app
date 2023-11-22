@@ -3,4 +3,7 @@ export { default as HeroBg } from "../Components/HeroBg";
 export { default as Footer } from "../Components/Footer";
 export { default as Status } from "../Components/Status";
 export { default as Contact } from "../Components/Contact";
+export { default as Review } from "../Components/Review";
+export { default as Stars } from "../Components/Stars";
+export { default as ReviewCard } from "../Components/ReviewCard";
 export { default as SkillSection } from "../Components/SkillSection";

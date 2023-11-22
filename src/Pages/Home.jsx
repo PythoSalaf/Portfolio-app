@@ -1,5 +1,5 @@
 import React from "react";
-import { Contact, HeroBg, SkillSection, Status } from "../Components";
+import { Contact, HeroBg, Review, SkillSection, Status } from "../Components";
 import { TypeAnimation } from "react-type-animation";
 import { herobg } from "../Assets";
 
@@ -70,6 +70,9 @@ const Home = () => {
       </div>
       <div className="w-[95%] mx-auto relative mt-[4rem]">
         <SkillSection />
+      </div>
+      <div className="w-[95%] mx-auto relative mt-[4rem]">
+        <Review />
       </div>
       <div className="w-[95%] mx-auto relative mt-[4rem]">
         <Contact />
