@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Card = ({ detail, avater, github, livelink, title }) => {
   return (
-    <div className="w-[285px] md:w-[350px] h-[350px] md:h-[408px] bg-white border border-primary shadow-custom rounded-lg ">
+    <div className="w-[290px] md:w-[350px] h-[350px] md:h-[408px] bg-white border border-primary shadow-custom rounded-lg ">
       <div className="w-[90%] mx-auto my-3 h-[150px] md:h-[200px]">
         <img src={avater} alt="flat" className="w-full h-full" />
       </div>
