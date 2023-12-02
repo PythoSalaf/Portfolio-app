@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="w-full">
       <div className="w-full flex items-center justify-center flex-col">
-        <h2 className="uppercase text-2xl md:text-3xl text-primary font-semibold ">
+        <h2 className="uppercase text-2xl md:text-3xl font-serif text-primary font-semibold ">
           contact
         </h2>
         <h4 className="capitalize my-3 font-medium text-lg md:text-xl ">
@@ -13,8 +13,7 @@ const Contact = () => {
           <span className="text-primary font-serif">projects</span>
         </h4>
         <p className="text-center text-base capitalize font-medium">
-          let make something new, different and more meaningful or make <br />
-          thing more visual or conceptual
+          let make something new, different and more meaningful
         </p>
       </div>
 

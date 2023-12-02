@@ -1,4 +1,4 @@
-import { mui, redux } from "../Assets";
+import { mui, redux, flat, open, nova, tailwind } from "../Assets";
 import { IoIosCall } from "react-icons/io";
 import { BsEnvelopeFill } from "react-icons/bs";
 import { FaLocationDot } from "react-icons/fa6";
@@ -25,7 +25,7 @@ export const skillsData = [
   {
     id: 4,
     name: "Tailwind css",
-    avatar: "",
+    avatar: tailwind,
     note: "Lorem ipsum dolor sit.",
   },
   {
@@ -120,4 +120,77 @@ export const ReviewData = [
     review:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, fugiat?",
   },
+];
+
+export const PortfolioData = [
+  {
+    id: 1,
+    title: "job app",
+    detail:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    github: "",
+    livelink: "",
+    avater: open,
+    stacks: {},
+  },
+  {
+    id: 2,
+    title: "job app",
+    detail:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    github: "",
+    livelink: "",
+    avater: nova,
+    stacks: {},
+  },
+  {
+    id: 3,
+    title: "job app",
+    detail:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    github: "",
+    livelink: "",
+    avater: flat,
+    stacks: {},
+  },
+  {
+    id: 4,
+    title: "job app",
+    detail:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    github: "",
+    livelink: "",
+    avater: nova,
+    stacks: {},
+  },
+  {
+    id: 5,
+    title: "job app",
+    detail:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    github: "",
+    livelink: "",
+    avater: flat,
+    stacks: {},
+  },
+  {
+    id: 6,
+    title: "crypto hub",
+    detail:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    github: "",
+    livelink: "",
+    avater: open,
+    stacks: {},
+  },
+  // {
+  //   id: 7,
+  //   title: "ecommerce",
+  //   detail:
+  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //   github: "",
+  //   livelink: "",
+  //   avater: "",
+  //   stacks: {},
+  // },
 ];

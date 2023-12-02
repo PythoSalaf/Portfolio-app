@@ -11,12 +11,14 @@ body {
 .active-link {
   color: #0db760;
   position: relative;
-  font-size: 17px;
+  font-size: 21px;
+  font-family: serif;
   font-weight: 600;
 }
 
 .inactive-link {
-  font-size: 17px;
+  font-size: 21px;
+  font-family: serif;
   font-weight: 600;
   position: relative;
 }

@@ -52,7 +52,7 @@ const Review = () => {
   return (
     <div className="w-full">
       <div className="w-full flex items-center justify-center flex-col">
-        <h2 className="text-2xl md:text-3xl text-primary font-semibold uppercase">
+        <h2 className="text-2xl md:text-3xl text-primary font-semibold font-serif uppercase">
           Reviews
         </h2>
         <p className="my-3 font-medium text-lg md:text-xl capitalize">
