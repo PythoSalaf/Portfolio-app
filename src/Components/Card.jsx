@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Card = ({ detail, avater, github, livelink, title }) => {
   return (
-    <div className="w-[280px] md:w-[350px] h-[350px] md:h-[408px] bg-white border border-primary shadow-custom rounded-lg ">
+    <div className="w-[285px] md:w-[350px] h-[350px] md:h-[408px] bg-white border border-primary shadow-custom rounded-lg ">
       <div className="w-[90%] mx-auto my-3 h-[150px] md:h-[200px]">
         <img src={avater} alt="flat" className="w-full h-full" />
       </div>
@@ -31,7 +31,7 @@ const Card = ({ detail, avater, github, livelink, title }) => {
         <p className="font-serif mt-4 mb-2 text-[12px] md:text-[14px]">
           {detail}
         </p>
-        <div className="flex items-center gap-3 w-full mb-1 md:mb-[12px] ">
+        <div className="flex items-center gap-3 w-full md:mb-[12px] ">
           <h3 className="text-red-600 font-semibold text-sm md:text-base border capitalize rounded-lg px-1 py-[1px]">
             #React
           </h3>
