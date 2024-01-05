@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-padding-top: 7rem;
 }
 
 body {
@@ -14,6 +15,8 @@ body {
   font-size: 21px;
   font-family: serif;
   font-weight: 600;
+  cursor: pointer;
+  text-transform: capitalize;
 }
 
 .inactive-link {
@@ -21,6 +24,8 @@ body {
   font-family: serif;
   font-weight: 600;
   position: relative;
+  cursor: pointer;
+  text-transform: capitalize;
 }
 
 .inactive-link:hover {

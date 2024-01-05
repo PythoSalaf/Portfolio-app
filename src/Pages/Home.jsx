@@ -1,19 +1,11 @@
 import React from "react";
-import {
-  Contact,
-  HeroBg,
-  PortfolioSection,
-  Review,
-  SkillSection,
-  Status,
-} from "../Components";
-import { TypeAnimation } from "react-type-animation";
+import { HeroBg, Status, TextAnimation } from "../Components";
 import { herobg } from "../Assets";
 
 const Home = () => {
   return (
     <div className="relative w-full  py-4 mt-[4.5rem]">
-      <div className="w-full hfull  relative">
+      <section className="w-full h-full  relative" id="home">
         <HeroBg />
         <div className="w-[95%] mx-auto flex-col md:flex-row  relative gap-6 flex items-start justify-between">
           <div className="w-full bg-transparent">
@@ -22,26 +14,8 @@ const Home = () => {
               <span className="text-primary font-serif">Taoheed Afolabi</span>{" "}
               👋
             </h1>
-            <div className="my-5">
-              <TypeAnimation
-                preRenderFirstString={true}
-                sequence={[
-                  500,
-                  "I'm a Passionate Frontend Developer", // initially rendered starting point
-                  1000,
-                  "I'm a React Enthusiast",
-                  1000,
-                  "I'm a Responsive Web Design Specialist",
-                  1000,
-                  "I'm a Performance Optimization Guru",
-                  1000,
-                  "Accessibility Champion",
-                  500,
-                ]}
-                speed={50}
-                className="text-primary text-xl  md:text-2xl lg:text-3xl font-serif "
-                repeat={Infinity}
-              />
+            <div className="my-4">
+              <TextAnimation />
             </div>
             <p className="text-lg md:text-2xl  font-medium ">
               Welcome to my digital playground.{" "}
@@ -56,36 +30,35 @@ const Home = () => {
               applications.
             </p>
             <div className="mt-10 md:mt-16 flex items-center justify-center md:justify-normal gap-6">
-              <button className="border-[1.9px] text-base md:text-lg font-medium font-serif capitalize text-primary bg-white hover:bg-primary hover:text-white border-primary rounded-lg px-4 py-1">
+              <a
+                href="#project"
+                className="border-[1.9px] text-base md:text-lg font-medium font-serif capitalize text-white bg-primary md:text-primary md:bg-white md:hover:bg-primary md:hover:text-white border-primary rounded-lg px-4 py-1"
+              >
                 projects
-              </button>
-              <button className="border-[1.9px] text-base md:text-lg font-medium font-serif capitalize text-primary bg-white hover:bg-primary hover:text-white border-primary rounded-lg px-4 py-1">
+              </a>
+              <a
+                href="https://github.com/PythoSalaf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-[1.9px] text-base md:text-lg font-medium font-serif capitalize  text-white bg-primary md:text-primary md:bg-white hover:bg-primary hover:text-white border-primary rounded-lg px-4 py-1"
+              >
                 github
-              </button>
-              <button className="border-[1.9px] text-base md:text-lg font-medium font-serif capitalize text-primary bg-white hover:bg-primary hover:text-white border-primary rounded-lg px-4 py-1">
+              </a>
+              <a
+                href="#contact"
+                className="border-[1.9px] text-base md:text-lg font-medium font-serif capitalize  text-white bg-primary md:text-primary md:bg-white hover:bg-primary hover:text-white border-primary rounded-lg px-4 py-1"
+              >
                 hire me
-              </button>
+              </a>
             </div>
           </div>
           <div className="w-full mt-6 md:mt-0 gap-10 flex items-start justify-center">
             <img src={herobg} alt="hero-bg" className="w-[70%] md:w-[60%]" />
           </div>
         </div>
-      </div>
+      </section>
       <div className="w-[90] md:w-[65%] relative mx-auto flex items-center justify-center mt-10  ">
         <Status />
-      </div>
-      <div className="w-[95%] mx-auto relative mt-[4rem]">
-        <SkillSection />
-      </div>
-      <div className="w-[95%] mx-auto relative mt-[4rem]">
-        <PortfolioSection />
-      </div>
-      <div className="w-[95%] mx-auto relative mt-[4rem]">
-        <Review />
-      </div>
-      <div className="w-[95%] mx-auto relative mt-[4rem]">
-        <Contact />
       </div>
     </div>
   );

@@ -9,8 +9,8 @@ const Status = () => {
           <CountUp
             //   separator=","
             start={0}
-            end={800}
-            duration={3.0}
+            end={10}
+            duration={5.0}
           />
         </h1>
         <p className="text-base md:text-lg font-semibold capitalize font-serif">
@@ -23,7 +23,7 @@ const Status = () => {
             //   separator=","
             start={0}
             end={20}
-            duration={3.0}
+            duration={5.0}
           />
         </h1>
         <p className="text-base md:text-lg font-semibold capitalize font-serif">
@@ -35,8 +35,8 @@ const Status = () => {
           <CountUp
             //   separator=","
             start={0}
-            end={100}
-            duration={3.0}
+            end={10}
+            duration={5.0}
           />
         </h1>
         <p className="text-base md:text-lg font-semibold capitalize font-serif">

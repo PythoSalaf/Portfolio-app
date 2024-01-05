@@ -1,4 +1,15 @@
-import { mui, redux, flat, open, nova, tailwind } from "../Assets";
+import {
+  mui,
+  redux,
+  flat,
+  open,
+  nova,
+  tailwind,
+  portfolio,
+  framer,
+  reacticon,
+  sass,
+} from "../Assets";
 import { IoIosCall } from "react-icons/io";
 import { BsEnvelopeFill } from "react-icons/bs";
 import { FaLocationDot } from "react-icons/fa6";
@@ -6,39 +17,39 @@ export const skillsData = [
   {
     id: 1,
     name: "react js",
-    avatar: "",
-    note: "Lorem ipsum dolor sit.",
+    avatar: reacticon,
+    note: " A JavaScript library for building user interfaces.",
   },
 
   {
     id: 2,
     name: "redux & redux toolkit",
     avatar: redux,
-    note: "Lorem ipsum dolor sit.",
+    note: " A state management library",
   },
   {
     id: 3,
     name: "MUI",
     avatar: mui,
-    note: "Lorem ipsum dolor sit.",
+    note: "A popular React UI framework",
   },
   {
     id: 4,
     name: "Tailwind css",
     avatar: tailwind,
-    note: "Lorem ipsum dolor sit.",
+    note: " A utility-first CSS framework",
   },
   {
     id: 5,
     name: "Sass",
-    avatar: "",
-    note: "Lorem ipsum dolor sit.",
+    avatar: sass,
+    note: "A popular CSS preprocessor that extends CSS with features like variables",
   },
   {
     id: 6,
     name: "Framer motion",
-    avatar: "",
-    note: "Lorem ipsum dolor sit.",
+    avatar: framer,
+    note: "A lightweight and intuitive animation library for React",
   },
 ];
 
@@ -73,64 +84,45 @@ export const ReviewData = [
   },
   {
     id: 2,
-    name: "Tunde",
-    stack: "Frontend engineer",
+    name: "Shuaib",
+    stack: "UI/UX Designer",
     review:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, fugiat?",
+      "Taoheed's meticulous attention to detail and creative prowess in frontend development showcase a level of craftsmanship that sets a high standard for user-centric design.",
   },
+
   {
     id: 3,
-    name: "Quadri",
-    stack: "Flutter developer",
+    name: "Yusuf",
+    stack: "Product Designer",
     review:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, fugiat?",
+      "In the years of working with Taoheed, it's really being of wonderful experience as his zeal to make my designs come into reality has always been amazing while his work rate can't be overlooked.",
   },
   {
     id: 4,
-    name: "Sodiq",
-    stack: "UI/UX designer",
-    review:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, fugiat?",
-  },
-  {
-    id: 5,
-    name: "Jacob",
+    name: "",
     stack: "React developer",
     review:
       "I have had the pleasure of working with Taoheed on a few projects over the past few years, and I have always been impressed with his skills and professionalism.",
   },
+
   {
-    id: 6,
-    name: "ElectroSalaf",
-    stack: "Java developer",
-    review:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, fugiat?",
-  },
-  {
-    id: 7,
-    name: "babatunde",
-    stack: "Frontend developer",
+    id: 5,
+    name: "Dev Abdul",
+    stack: "Backend developer",
     review:
       "Hard working developer. In addition to his technical skils, Taoheed is also an excellent communicator and team player.He is always willing to go the extra mile to complete any given task.",
-  },
-  {
-    id: 8,
-    name: "DevAbdul",
-    stack: "backend developer",
-    review:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, fugiat?",
   },
 ];
 
 export const PortfolioData = [
   {
     id: 1,
-    title: "job app",
+    title: "portfolio",
     detail:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    github: "",
-    livelink: "",
-    avater: open,
+    github: "https://github.com/PythoSalaf/Portfolio-app",
+    livelink: "https://pytho-app.vercel.app/",
+    avater: portfolio,
     stacks: {},
   },
   {
@@ -138,18 +130,18 @@ export const PortfolioData = [
     title: "job app",
     detail:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    github: "",
-    livelink: "",
+    github: "https://job-app-amber.vercel.app",
+    livelink: "https://job-app-amber.vercel.app",
     avater: nova,
     stacks: {},
   },
   {
     id: 3,
-    title: "job app",
+    title: "Ecommerce",
     detail:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    github: "",
-    livelink: "",
+    github: "https://github.com/PythoSalaf/Ecommerce",
+    livelink: "https://ecommerce-tao.vercel.app",
     avater: flat,
     stacks: {},
   },
@@ -178,8 +170,8 @@ export const PortfolioData = [
     title: "crypto hub",
     detail:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    github: "",
-    livelink: "",
+    github: "https://github.com/PythoSalaf/Crypto-Hub",
+    livelink: "https://b-hub.netlify.app/",
     avater: open,
     stacks: {},
   },

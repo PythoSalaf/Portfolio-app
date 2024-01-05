@@ -18,28 +18,28 @@ const Footer = () => {
             <IoIosHeart className="mx-1" size={18} color="#0db760" /> by Taoheed
           </h3>
           <div className="w-full flex items-center mt-[2px] md:mt-0 gap-7 justify-center">
-            <Link
-              to="https://www.linkedin.com/in/pythosalaf/"
+            <a
+              href="https://www.linkedin.com/in/pythosalaf/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin size={23} color="#0db760" />
-            </Link>
-            <Link
-              to="https://twitter.com/PythoSalaf"
+            </a>
+            <a
+              href="https://twitter.com/PythoSalaf"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaSquareXTwitter size={23} color="#0db760" />
-            </Link>
+            </a>
 
-            <Link
-              to="https://github.com/PythoSalaf"
+            <a
+              href="https://github.com/PythoSalaf"
               target="_blank"
               rel="noopener noreferrer"
             >
               <SiGithub size={23} color="#0db760" />
-            </Link>
+            </a>
           </div>
         </div>
       </div>

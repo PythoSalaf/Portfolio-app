@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Card = ({ detail, avater, github, livelink, title }) => {
   return (
@@ -17,14 +17,14 @@ const Card = ({ detail, avater, github, livelink, title }) => {
           </div>
           <div className="flex items-center justify-end gap-3 w-full">
             <div className="bg-primary rounded-full w-8 h-8 cursor-pointer flex items-center justify-center ">
-              <Link to={github} target="_blank" rel="noopener noreferrer">
+              <a href={github} target="_blank" rel="noopener noreferrer">
                 <AiFillGithub color="#fff" size={20} />
-              </Link>
+              </a>
             </div>
             <div className="bg-primary rounded-full w-8 h-8 cursor-pointer flex items-center justify-center ">
-              <Link to={livelink} target="_blank" rel="noopener noreferrer">
+              <a href={livelink} target="_blank" rel="noopener noreferrer">
                 <AiFillEye color="#fff" size={20} />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
