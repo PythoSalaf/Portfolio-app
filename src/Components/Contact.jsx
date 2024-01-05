@@ -54,22 +54,11 @@ const Contact = () => {
                   className="w-full border h-[40px] pl-[6px] rounded-lg outline-none border-primary"
                 />
               </div>
-              <div className="flex flex-col md:flex-row my-6 md:my-10 w-full gap-4">
-                <input
-                  type="text"
-                  placeholder="Full Name"
-                  className="w-full border h-[40px] pl-[6px] rounded-lg outline-none border-primary mb-2"
-                />
-                <input
-                  type="text"
-                  placeholder="Email"
-                  className="w-full border h-[40px] pl-[6px] rounded-lg outline-none border-primary"
-                />
-              </div>
+
               <textarea
                 type="text"
                 placeholder="enter your messages"
-                className="resize-none w-full outline-none border border-primary pl-2 pt-1 rounded-lg h-[100px]"
+                className="resize-none w-full outline-none border border-primary pl-2 pt-1 mt-5 md:mt-9 mb-2 md:mb-4 rounded-lg h-[100px]"
               />
               <div className="flex items-center md:items-end justify-center md:justify-end mt-5">
                 <button

@@ -8,9 +8,11 @@ import tailwind from "../Assets/tailwind.png";
 import framer from "../Assets/framer.png";
 import sass from "../Assets/sass.png";
 import reacticon from "../Assets/reacticon.png";
-import flat from "../Assets/flat.jpg";
-import nova from "../Assets/nova.jpg";
-import open from "../Assets/open.jpg";
+import ecommerce from "../Assets/ecommerce.png";
+import admin from "../Assets/admin.png";
+import jobs from "../Assets/jobs.png";
+import git from "../Assets/git.png";
+import crypto from "../Assets/crypto.png";
 import resume from "../Assets/Resume.pdf";
 
 export {
@@ -18,9 +20,6 @@ export {
   mui,
   redux,
   avater,
-  nova,
-  flat,
-  open,
   tailwind,
   portfolio,
   reacticon,
@@ -28,4 +27,9 @@ export {
   framer,
   about,
   resume,
+  ecommerce,
+  admin,
+  jobs,
+  crypto,
+  git,
 };

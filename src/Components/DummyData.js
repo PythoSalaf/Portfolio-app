@@ -1,14 +1,15 @@
 import {
-  mui,
   redux,
-  flat,
-  open,
-  nova,
   tailwind,
   portfolio,
   framer,
   reacticon,
   sass,
+  ecommerce,
+  admin,
+  jobs,
+  crypto,
+  git,
 } from "../Assets";
 import { IoIosCall } from "react-icons/io";
 import { BsEnvelopeFill } from "react-icons/bs";
@@ -27,12 +28,12 @@ export const skillsData = [
     avatar: redux,
     note: " A state management library",
   },
-  {
-    id: 3,
-    name: "MUI",
-    avatar: mui,
-    note: "A popular React UI framework",
-  },
+  // {
+  //   id: 3,
+  //   name: "MUI",
+  //   avatar: mui,
+  //   note: "A popular React UI framework",
+  // },
   {
     id: 4,
     name: "Tailwind css",
@@ -50,6 +51,12 @@ export const skillsData = [
     name: "Framer motion",
     avatar: framer,
     note: "A lightweight and intuitive animation library for React",
+  },
+  {
+    id: 7,
+    name: "Git",
+    avatar: git,
+    note: "Git is a version control system for tracking changes.",
   },
 ];
 
@@ -117,63 +124,73 @@ export const ReviewData = [
 export const PortfolioData = [
   {
     id: 1,
-    title: "portfolio",
+    title: "Dashboard",
     detail:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    github: "https://github.com/PythoSalaf/Portfolio-app",
+      "I designed the PsychSight Admin Dashboard, streamlining appointment management, enhancing client experience, and ensuring robust security for mental health professionals.",
+    github: "https://github.com/PythoSalaf/psych-admin",
     livelink: "https://pytho-app.vercel.app/",
-    avater: portfolio,
-    stacks: {},
+    avater: admin,
+    stacks: ["Tailwind CSS", "React.js", "Redux Toolkit"],
   },
   {
     id: 2,
-    title: "job app",
+    title: "portfolio",
     detail:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    github: "https://job-app-amber.vercel.app",
-    livelink: "https://job-app-amber.vercel.app",
-    avater: nova,
-    stacks: {},
+      "My portfolio boosts user engagement by 20%, featuring designs that reduce bounce rates by 25% and enhance project efficiency by 15%.",
+    github: "https://github.com/PythoSalaf/Portfolio-app",
+    livelink: "https://pytho-app.vercel.app/",
+    avater: portfolio,
+    stacks: ["Tailwind CSS", "React.js", "React Particle"],
   },
   {
     id: 3,
-    title: "Ecommerce",
+    title: "job app",
     detail:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    github: "https://github.com/PythoSalaf/Ecommerce",
-    livelink: "https://ecommerce-tao.vercel.app",
-    avater: flat,
-    stacks: {},
+      "Web application that enables users to search for job openings, and locate available jobs based on their current location.",
+    github: "https://github.com/PythoSalaf/Job-App",
+    livelink: "https://job-app-amber.vercel.app",
+    avater: jobs,
+    stacks: ["React.js", "Styled-Component", "Rapid API", "Redux-Toolkit"],
   },
   {
     id: 4,
-    title: "job app",
+    title: "Ecommerce",
     detail:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    github: "",
-    livelink: "",
-    avater: nova,
-    stacks: {},
+      "Engaging e-commerce: Platform design drives 20% user engagement surge",
+    github: "https://github.com/PythoSalaf/Ecommerce",
+    livelink: "https://ecommerce-tao.vercel.app",
+    avater: ecommerce,
+    stacks: ["CSS", "React.js", "Redux-Toolkit"],
   },
+  // {
+  //   id: 4,
+  //   title: "job app",
+  //   detail:
+  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //   github: "",
+  //   livelink: "",
+  //   avater: nova,
+  //   stacks: {},
+  // },
+  // {
+  //   id: 5,
+  //   title: "job app",
+  //   detail:
+  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //   github: "",
+  //   livelink: "",
+  //   avater: flat,
+  //   stacks: {},
+  // },
   {
-    id: 5,
-    title: "job app",
-    detail:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    github: "",
-    livelink: "",
-    avater: flat,
-    stacks: {},
-  },
-  {
-    id: 6,
+    id: 7,
     title: "crypto hub",
     detail:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "My crypto project provides a comprehensive listing of all cryptocurrencies, offering detailed information on each.",
     github: "https://github.com/PythoSalaf/Crypto-Hub",
     livelink: "https://b-hub.netlify.app/",
-    avater: open,
-    stacks: {},
+    avater: crypto,
+    stacks: ["React.js", "RTK Query", "Framer Motion"],
   },
   // {
   //   id: 7,
