@@ -33,7 +33,13 @@ const PortfolioSection = () => {
             className="bg-primary text-base md:hover:bg-white md:hover:text-primary border border-white md:hover:border-primary transition ease-in-out duration-300 md:text-lg capitalize  rounded-lg font-medium font-serif text-white px-5 py-[6px] md:py-2 md:px-6"
             // onClick={() => navigate("/portfolio")}
           >
-            show more
+            <a
+              href="https://github.com/PythoSalaf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              show more
+            </a>
           </button>
         </div>
       </div>
