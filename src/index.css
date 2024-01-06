@@ -7,6 +7,7 @@
 
 body {
   scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 
 .active-link {

@@ -148,57 +148,59 @@ const Navbar = () => {
           </div>
         </div>
         {toggle && (
-          <div className="md:hidden fixed pt-2  transition-transform duration-300 ease-in-out transform translate-y top-[3.6rem] bg-primary w-full h-[37vh] flex items-center flex-col">
-            {/* <div className=" flex items-center flex-col ">
-              <Link
-                to="/"
+          <div className="md:hidden fixed pt-2  transition-transform duration-300 ease-in-out transform translate-y top-[3.6rem] bg-primary w-full h-[45vh] flex items-center flex-col">
+            <div className=" flex items-center flex-col ">
+              <a
+                href="#home"
                 className="mb-3 text-lg font-serif font-semibold text-white capitalize"
                 onClick={() => setToggle(!toggle)}
               >
                 Home
-              </Link>
-              <Link
-                to="about"
+              </a>
+              <a
+                href="#about"
                 className="mb-3 text-lg font-serif font-semibold text-white capitalize"
                 onClick={() => setToggle(!toggle)}
               >
                 About
-              </Link>
-              <Link
-                to="skills"
+              </a>
+              <a
+                href="#skills"
                 className="mb-3 text-lg font-serif font-semibold text-white capitalize"
                 onClick={() => setToggle(!toggle)}
               >
                 Skills
-              </Link>
-              <Link
-                to="Portfolio"
+              </a>
+              <a
+                href="#Projects"
                 className="mb-3 text-lg font-serif font-semibold text-white capitalize"
                 onClick={() => setToggle(!toggle)}
               >
                 Portfolio
-              </Link>
-              <Link
-                to="testimonial"
+              </a>
+              <a
+                href="#reviews"
                 className="mb-3 text-lg font-serif font-semibold text-white capitalize"
                 onClick={() => setToggle(!toggle)}
               >
                 Testimonial
-              </Link>
-              <Link
-                to="testimonial"
+              </a>
+              <a
+                href="#contact"
                 className="mb-3 text-lg font-serif font-semibold text-white capitalize"
                 onClick={() => setToggle(!toggle)}
               >
                 contact
-              </Link>
+              </a>
               <button
                 onClick={() => setToggle(!toggle)}
                 className="uppercase mt-3 font-serif font-semibold text-white text-[17px] border-white px-5 py-[7px] rounded-lg border"
               >
-                download CV
+                <a href={resume} download>
+                  download CV
+                </a>
               </button>
-            </div> */}
+            </div>
           </div>
         )}
       </nav>

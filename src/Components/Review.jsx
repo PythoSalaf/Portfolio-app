@@ -50,7 +50,7 @@ const Review = () => {
     ],
   };
   return (
-    <div className="w-full mt-[4rem] " id="review">
+    <div className="w-full mt-[4rem] h-full overflow-x-hidden py-9" id="review">
       <div className="w-full flex items-center justify-center flex-col">
         <h2 className="text-2xl md:text-3xl text-primary font-semibold font-serif uppercase">
           Reviews
@@ -60,7 +60,7 @@ const Review = () => {
         </p>
       </div>
 
-      <div className="w-[90%] mx-auto  mt-4">
+      <div className="w-[90%] relative mx-auto  mt-4">
         <Slider {...settings}>
           {ReviewData.map((review) => (
             <div key={review.id}>

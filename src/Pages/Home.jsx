@@ -31,7 +31,7 @@ const Home = () => {
             </p>
             <div className="mt-10 md:mt-16 flex items-center justify-center md:justify-normal gap-6">
               <a
-                href="#project"
+                href="#projects"
                 className="border-[1.9px] text-base md:text-lg font-medium font-serif capitalize text-white bg-primary md:text-primary md:bg-white md:hover:bg-primary md:hover:text-white border-primary rounded-lg px-4 py-1"
               >
                 projects
