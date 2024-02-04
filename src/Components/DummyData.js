@@ -10,6 +10,7 @@ import {
   jobs,
   crypto,
   git,
+  movies,
 } from "../Assets";
 import { IoIosCall } from "react-icons/io";
 import { BsEnvelopeFill } from "react-icons/bs";
@@ -106,7 +107,7 @@ export const ReviewData = [
   },
   {
     id: 4,
-    name: "",
+    name: "Maya",
     stack: "React developer",
     review:
       "I have had the pleasure of working with Taoheed on a few projects over the past few years, and I have always been impressed with his skills and professionalism.",
@@ -134,6 +135,16 @@ export const PortfolioData = [
   },
   {
     id: 2,
+    title: "Movies Web",
+    detail:
+      "The Movies App showcases significant growth in Redux, API consumption, and React development. Excited about ongoing learning, I look forward to applying these skills in future projects.",
+    github: "https://github.com/PythoSalaf/Movie-Web",
+    livelink: "https://movies-webs.vercel.app/",
+    avater: movies,
+    stacks: ["Tailwind CSS", "React.js", "RTK Query"],
+  },
+  {
+    id: 3,
     title: "portfolio",
     detail:
       "My portfolio boosts user engagement by 20%, featuring designs that reduce bounce rates by 25% and enhance project efficiency by 15%.",
@@ -143,7 +154,7 @@ export const PortfolioData = [
     stacks: ["Tailwind CSS", "React.js", "React Particle"],
   },
   {
-    id: 3,
+    id: 4,
     title: "job app",
     detail:
       "Web application that enables users to search for job openings, and locate available jobs based on their current location.",
@@ -153,7 +164,7 @@ export const PortfolioData = [
     stacks: ["React.js", "Styled-Component", "Rapid API", "Redux-Toolkit"],
   },
   {
-    id: 4,
+    id: 5,
     title: "Ecommerce",
     detail:
       "Engaging e-commerce: Platform design drives 20% user engagement surge",
@@ -183,7 +194,7 @@ export const PortfolioData = [
   //   stacks: {},
   // },
   {
-    id: 7,
+    id: 6,
     title: "crypto hub",
     detail:
       "My crypto project provides a comprehensive listing of all cryptocurrencies, offering detailed information on each.",

@@ -13,6 +13,7 @@ import admin from "../Assets/admin.png";
 import jobs from "../Assets/jobs.png";
 import git from "../Assets/git.png";
 import crypto from "../Assets/crypto.png";
+import movies from "../Assets/movies.png";
 import resume from "../Assets/Resume.pdf";
 
 export {
@@ -32,4 +33,5 @@ export {
   jobs,
   crypto,
   git,
+  movies,
 };
