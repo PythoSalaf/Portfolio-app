@@ -18,11 +18,11 @@ const SkillSection = () => {
               key={skill.id}
               className="w-full h-[100px] border-[1px] md:border-[2px] border-primary bg-white shadow-custom flex items-center gap-5 py-3 rounded-lg"
             >
-              <div className="w-[100px] h-[100px] rounded-full flex items-center justify-center ">
+              <div className="w-[80px] h-[80px] rounded-full flex items-center justify-center ">
                 <img
                   src={skill.avatar}
                   alt={skill.name}
-                  className="w-[70%] h-[70%] rounded-full bg-white"
+                  className="w-[70%] h-[60%] rounded-full bg-white"
                 />
               </div>
               <div className="w-[70%">

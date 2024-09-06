@@ -11,6 +11,9 @@ import {
   crypto,
   git,
   movies,
+  typescript,
+  query,
+  nextjs,
 } from "../Assets";
 import { IoIosCall } from "react-icons/io";
 import { BsEnvelopeFill } from "react-icons/bs";
@@ -43,18 +46,36 @@ export const skillsData = [
   },
   {
     id: 5,
+    name: "TypeScript",
+    avatar: typescript,
+    note: "A typed JavaScript superset that helps catch errors and manage large codebases.",
+  },
+  {
+    id: 6,
+    name: "Next js",
+    avatar: nextjs,
+    note: "A React framework for server-side rendering and static site generation.",
+  },
+  {
+    id: 7,
+    name: "React query",
+    avatar: query,
+    note: "A data-fetching library for managing server-state",
+  },
+  {
+    id: 8,
     name: "Sass",
     avatar: sass,
     note: "A popular CSS preprocessor that extends CSS with features like variables",
   },
   {
-    id: 6,
+    id: 9,
     name: "Framer motion",
     avatar: framer,
     note: "A lightweight and intuitive animation library for React",
   },
   {
-    id: 7,
+    id: 10,
     name: "Git",
     avatar: git,
     note: "Git is a version control system for tracking changes.",
